@@ -1,0 +1,17 @@
+Overview: 
+
+This project is to implement machine learning methods for the task of classification. You will first implement an ensemble of four classifiers for a given task. Then the results of the individual classifiers are combined to make a final decision. The classification task will be that of recognizing a 28×28 grayscale handwritten digit image and identify it as a digit among 0, 1, 2, ... , 9. You are required to train the following four classifiers using MNIST digit images.
+
+1. Logistic regression, which you implement yourself using backpropagtion and tune hyperparameters.
+2. A publicly available multilayer perceptron neural network, train it on the MNIST digit images and tune hyperparameters.
+3. A publicly available Random Forest package, train it on the MNIST digit images and tune hyperparameters.
+4. A publicly available SVM package, train it on the MNIST digit images and tune hyperparameters.
+
+
+Questions to be answered:
+
+Based on the above implementations we wish to answer the following questions:
+
+1. We test the MNIST trained models on two different test sets: the test set from MNIST and a test set from the USPS data set. Do your results support the “No Free Lunch” theorem?
+2. Observe the confusion matrix of each classifier and describe the relative strengths/weaknesses of each classifier. Which classifier has the overall best performance?
+3. Combine the results of the individual classifiers using a classifier combination method such as majority voting. Is the overall combined performance better than that of any individual classifier?
