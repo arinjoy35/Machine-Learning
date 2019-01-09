@@ -1,0 +1,19 @@
+Overview
+The project combines reinforcement learning and deep learning. Your task is to teach the agent to navigate in the grid-world environment. We have modeled Tom and Jerry cartoon, where Tom, a cat, is chasing Jerry, a mouse. In our modeled game the task for Tom (an agent) is to find the shortest path to Jerry (a goal), given that the initial positions of Tom and Jerry are deterministic. To solve the problem, we would apply deep reinforcement learning algorithm - DQN (Deep Q-Network), that was one of the first breakthrough successes in applying deep learning to reinforcement learning. 
+
+There are two main parts of the project:
+1. Coding part - build neural network in Keras for the deep learning part and write code in Python for
+the reinforcement learning part.
+2. Writing part - answer the questions.
+
+Calculate Q-value for the given states and provide all the calculation steps. 
+Consider a deterministic environment which is a 3x3 grid, where one space of the grid is occupied by the agent (green square) and another is occupied by a goal (yellow square). The agent’s action space consists of 4 actions: UP, DOWN, LEFT, and RIGHT. The goal is to have the agent move onto the space that the goal is occupying in as little moves as possible. Initially, the agent is set to be in the upper-left corner and the goal is in the lower-right corner. The agent receives a reward of:
+1 when it moves closer to the goal
+-1 when it moves away from the goal
+0 when it does not move at all (e.g., tries to move into an edge)
+Consider the following possible optimal set of actions and their resulting states, that reach the goal in the smallest number of steps:
+
+The agent takes the following sequence of actions: RIGHT ! DOWN ! RIGHT ! DOWN.
+
+It is an optimal path for the agent to take to reach the goal (although this is not the only possible
+optimal path). Your task is to fill out the Q-Table for the above states, where γ = 0:99. 
