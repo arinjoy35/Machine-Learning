@@ -1,0 +1,8 @@
+Objective: 
+The project is to compare two problem solving approaches to software development: the logic-based approach (Software 1.0) and the machine learning approach (Software
+2.0). It is also designed to quickly gain familiarity with Python and machine learning frameworks.
+
+Task:
+We consider the task of FizzBuzz. In this task an integer divisible by 3 is printed as Fizz, and integer divisible by 5 is printed as Buzz. An integer divisible by both 3 and
+5 is printed as FizzBuzz. If an integer is not divisible by 3 or 5 or 15, it simply prints the input as output (for this last case, the input number can be classified as Other in
+Software 2.0, it should then be handled using Software 1.0, which prints the input as output).
